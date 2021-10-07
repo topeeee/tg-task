@@ -1,0 +1,4 @@
+#Wed Sep 22 12:54:09 WAT 2021
+base.0=/Users/topeajibuwa/Desktop/clane/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

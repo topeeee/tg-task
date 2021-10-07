@@ -1,0 +1,6 @@
+module Pods_clane_claneTests {
+  umbrella header "Pods-clane-claneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

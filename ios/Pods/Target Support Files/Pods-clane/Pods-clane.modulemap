@@ -1,0 +1,6 @@
+module Pods_clane {
+  umbrella header "Pods-clane-umbrella.h"
+
+  export *
+  module * { export * }
+}

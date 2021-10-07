@@ -1,0 +1,14 @@
+com/clane/BuildConfig.java
+ com.clane.BuildConfig
+com/clane/MainApplication.java
+ com.clane.MainApplication
+ com.clane.MainApplication$1
+com/clane/ReactNativeFlipper.java
+ com.clane.ReactNativeFlipper
+ com.clane.ReactNativeFlipper$1
+ com.clane.ReactNativeFlipper$2
+ com.clane.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/clane/MainActivity.java
+ com.clane.MainActivity

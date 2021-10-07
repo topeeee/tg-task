@@ -1,0 +1,5 @@
+export const MOVIES ='MOVIES';
+export const MOVIE_DETAILS = 'MOVIE_DETAILS';
+export const LOADING = 'LOADING';
+export const MOVIE_SUGGESTIONS = 'MOVIE_SUGGESTIONS';
+export const MOVIE_FAVOURITE = 'MOVIE_FAVOURITE'

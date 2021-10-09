@@ -17,6 +17,7 @@ import {RFValue} from "react-native-responsive-fontsize";
 import {convertDate} from "../utils/helpers";
 import Icon from "react-native-vector-icons/dist/FontAwesome";
 import HeaderComponent from "../components/headerComponent";
+import CustomUploadButton from "../components/CustomUploadButton";
 
 const SCREEN_HEIGHT = Dimensions.get("window").height;
 
@@ -149,6 +150,10 @@ const Movies = (props) => {
     return (
         <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
             <HeaderComponent favourites={favourites} title={'Movies'} navigation={navigation} removeMovieFavourite={removeMovieFavourite} />
+            <View style={{paddingHorizontal: 20}}>
+                <CustomUploadButton onPicked={(data) => console.log(data[0].uri)} label='Upload file' />
+
+            </View>
             <View style={{flex: 1, padding: 10}}>
                 <FlatList
                     ref={flatListRef}
